@@ -1,5 +1,5 @@
 while True:
-    cpf = input("digite seu cpf sem pontos: ")
+    cpf = input("digite seu cpf sem pontuacao: ")
     
     if cpf.isdigit() == False or not len(cpf) == 11  :
         print('digite um valor válido')
